@@ -1,4 +1,4 @@
-//* General Reset */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +21,7 @@ body {
 /* Title */
 h1 {
     font-size: 2rem;
-    font-weight: 100; /* Thinner weight for a sleek look */
+    font-weight: 100; /* Thin weight for title */
     color: #e0e0e0;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -45,7 +45,8 @@ h1 {
     padding: 25px; /* Increased padding for taller buttons */
     border-radius: 10px; /* Slightly more rounded */
     font-size: 26px; /* Bigger button text */
-    font-weight: 300;
+    font-weight: 300; /* Light weight for buttons */
+    font-family: 'Roboto', sans-serif; /* Explicitly set font */
     color: #2e2e2e;
     background-color: #c0c0c0;
     transition: background-color 0.3s, color 0.3s;
