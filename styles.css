@@ -30,30 +30,34 @@ h1 {
     text-transform: uppercase;
 }
 
-/* Button List Styling */
+/* Button Grid */
 .button-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Always two columns */
+    gap: 15px; /* Space between buttons */
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
+    padding: 10px;
 }
 
-/* Button Links */
+/* Button Styling */
 .button-list a {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
-    text-align: center;
-    margin: 20px 0;
-    padding: 25px; /* Increased padding for taller buttons */
-    border-radius: 10px; /* Slightly more rounded */
+    padding: 25px;
+    border-radius: 10px;
     font-size: 26px; /* Bigger button text */
     font-weight: 300; /* Light weight for buttons */
     font-family: 'Roboto', sans-serif; /* Explicitly set font */
     color: #2e2e2e;
-    background-color: #f8f8f8;
+    background-color: #f8f8f8; /* Almost white background */
     transition: background-color 0.3s, color 0.3s;
 }
 
 /* Hover Effects */
 .button-list a:hover {
-    background-color: #a0a0a0;
-    color: #f0f0f0;
+    background-color: #e0e0e0; /* Slightly darker grey on hover */
+    color: #2e2e2e;
 }
