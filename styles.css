@@ -33,10 +33,10 @@ h1 {
 /* Button Grid */
 .button-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Always two columns */
-    gap: 15px; /* Space between buttons */
+    grid-template-columns: repeat(4, 1fr); /* Four columns */
+    gap: 15px;
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
     padding: 10px;
 }
 
@@ -48,16 +48,18 @@ h1 {
     text-decoration: none;
     padding: 25px;
     border-radius: 10px;
-    font-size: 26px; /* Bigger button text */
-    font-weight: 300; /* Light weight for buttons */
-    font-family: 'Roboto', sans-serif; /* Explicitly set font */
+    font-size: 20px; /* Slightly smaller for compact grid */
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
     color: #2e2e2e;
-    background-color: #f8f8f8; /* Almost white background */
+    background-color: #f8f8f8;
     transition: background-color 0.3s, color 0.3s;
+    word-break: break-word;
+    text-align: center;
 }
 
 /* Hover Effects */
 .button-list a:hover {
-    background-color: #e0e0e0; /* Slightly darker grey on hover */
+    background-color: #e0e0e0;
     color: #2e2e2e;
 }
