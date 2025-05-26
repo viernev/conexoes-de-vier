@@ -21,7 +21,7 @@ body {
 /* Title */
 h1 {
     font-size: 2rem;
-    font-weight: 100; /* Thin weight for title */
+    font-weight: 100;
     color: #e0e0e0;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -30,17 +30,62 @@ h1 {
     text-transform: uppercase;
 }
 
-/* Button Grid */
-.button-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three columns */
-    gap: 15px;
+/* Button List Group Containers */
+.button-list-group {
     width: 100%;
-    max-width: 700px;
-    padding: 10px;
+    max-width: 800px;
+    padding: 20px;
+    margin-bottom: 0px;
+    border-radius: 0px;
 }
 
-/* Button Styling */
+/* Teal Tone Variations */
+.button-list-group:nth-of-type(1) {
+    background-color: #ff6262; /* Light teal */
+}
+
+.button-list-group:nth-of-type(2) {
+    background-color: #b94e6f; /* Slightly darker teal */
+}
+
+.button-list-group:nth-of-type(3) {
+    background-color: #815490; /* Even darker teal */
+}
+
+/* You can add more tones if needed */
+.button-list-group:nth-of-type(4) {
+    background-color: #4c569c;
+}
+
+.button-list-group:nth-of-type(5) {
+    background-color: #214d95; /* Light teal */
+}
+
+.button-list-group:nth-of-type(6) {
+    background-color: #216895; /* Slightly darker teal */
+}
+
+.button-list-group:nth-of-type(7) {
+    background-color: #218395; /* Even darker teal */
+}
+
+.button-list-group:nth-of-type(8) {
+    background-color: #27a88b; /* Even darker teal */
+}
+
+.button-list-group:nth-of-type(9) {
+    background-color: #54c290; /* Even darker teal */
+}
+
+
+/* Button Grid Inside Each Group */
+.button-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+/* Buttons */
 .button-list a {
     display: flex;
     justify-content: center;
@@ -58,7 +103,7 @@ h1 {
     text-align: center;
 }
 
-/* Hover Effects */
+/* Hover */
 .button-list a:hover {
     background-color: #e0e0e0;
     color: #2e2e2e;
