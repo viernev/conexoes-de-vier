@@ -33,10 +33,10 @@ h1 {
 /* Button Grid */
 .button-list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Four columns */
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
     gap: 15px;
     width: 100%;
-    max-width: 800px;
+    max-width: 700px;
     padding: 10px;
 }
 
@@ -48,7 +48,7 @@ h1 {
     text-decoration: none;
     padding: 25px;
     border-radius: 10px;
-    font-size: 20px; /* Slightly smaller for compact grid */
+    font-size: 22px;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
     color: #2e2e2e;
