@@ -23,7 +23,7 @@ h1 {
   letter-spacing: 4px;
   margin-bottom: 40px;
   text-align: center;
-  background: #3d465a;
+  background: #000000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
@@ -37,7 +37,7 @@ h3 {
   font-weight: 400;
   margin: 40px 0 20px;
   text-align: center;
-  background: #3d465a;
+  background: #000000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
@@ -115,15 +115,15 @@ h3 {
 }
 
 /* Cores de botões por grupo */
-.button-list-group:nth-of-type(2) .button-list a { background-color: #ff626270; }
-.button-list-group:nth-of-type(3) .button-list a { background-color: #ffa54e70; }
-.button-list-group:nth-of-type(4) .button-list a { background-color: #fdde7f70; }
-.button-list-group:nth-of-type(5) .button-list a { background-color: #54c29070; }
-.button-list-group:nth-of-type(6) .button-list a { background-color: #21839570; }
-.button-list-group:nth-of-type(7) .button-list a { background-color: #214d9570; }
-.button-list-group:nth-of-type(8) .button-list a { background-color: #81549070; }
-.button-list-group:nth-of-type(9) .button-list a { background-color: #b94e6f70; }
-.button-list-group:nth-of-type(10) .button-list a{ background-color: #ff626270; }
+.button-list-group:nth-of-type(2) .button-list a { background-color: #ffb5b5; }
+.button-list-group:nth-of-type(3) .button-list a { background-color: #ffd5ac; }
+.button-list-group:nth-of-type(4) .button-list a { background-color: #feefc3; }
+.button-list-group:nth-of-type(5) .button-list a { background-color: #afe2cb; }
+.button-list-group:nth-of-type(6) .button-list a { background-color: #97c5cd; }
+.button-list-group:nth-of-type(7) .button-list a { background-color: #97abcd; }
+.button-list-group:nth-of-type(8) .button-list a { background-color: #c4afcb; }
+.button-list-group:nth-of-type(9) .button-list a { background-color: #deacbb; }
+.button-list-group:nth-of-type(10) .button-list a{ background-color: #ffb5b5; }
 
 
 
