@@ -19,7 +19,7 @@ body {
 /* Título principal */
 h1 {
   font-weight: 400;
-  font-size: 2.8rem;
+  font-size: 2rem;
   letter-spacing: 4px;
   margin-bottom: 40px;
   text-align: center;
@@ -27,29 +27,31 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   animation: fadeIn 1.2s ease-out;
 }
 
 /* Título Arquivo */
 h3 {
   font-size: 1.7rem;
+  font-weight: 400;
   margin: 40px 0 20px;
   text-align: center;
   background: linear-gradient(90deg, #3d465a, #252d3f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   animation: fadeIn 1s ease-out;
-
+  
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Título destacado (Nível de hoje) */
 .most-recent-level h2 {
   font-weight: 400;
   letter-spacing: 0.2rem;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   text-align: center;
   color: #ffffff;
   display: block;
@@ -57,6 +59,8 @@ h3 {
   padding: 8px 20px;
   border-radius: 30px;
   text-transform: uppercase;
+  
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Grupo geral */
@@ -131,7 +135,7 @@ h3 {
 /* Responsivo para telemóveis */
 @media (max-width: 600px) {
   .button-list {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   h1 {
