@@ -110,7 +110,7 @@ h3 {
   text-decoration: none;
   backdrop-filter: blur(6px);
   border: 1px solid rgba(255, 255, 255, 0.15);
-  color: white;
+  color: black;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
